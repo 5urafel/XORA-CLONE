@@ -1,10 +1,11 @@
 import { useState } from "react";
+import Header from "./sections/Header";
 
 function App() {
   return (
-    <section>
-      <h1 className="text-red-600">App </h1>
-    </section>
+    <main className="overflow-hidden">
+      <Header />
+    </main>
   );
 }
 
